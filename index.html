@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chat App CG</title>
+
+      <link rel="stylesheet" href="css/style.css">
+      <!-- <link type = "text/css" rel="stylesheet" href="style.css"/> -->
+  </head>
+<body>
+
+  <div id="wrapper">
+  <!--  <button type = "button" onclick="chatGet()">Refresh</button> -->
+    <div id="menu">
+        <p class="welcome"> Chat App <b></b></p>
+        <input name = "theOther" type = "text" id="theOther" size="40" placeholder="Their Name"/>
+        <div id="getButton" onmousedown="otherChat()" onmouseup="refreshChat()" style="cursor: pointer;" text-align=center>Refresh</div>
+       <!-- <p class="logout"><a id="exit" href="#">Exit Chat</a></p> -->
+        <div style="clear:both"></div>
+    </div>
+
+    <div id="chatbox"></div>
+
+<input name="username" type="text" id="username" size="63" placeholder="Your Name" />
+    <form id ="msgForm">
+        <input name="usermsg" type="text" id="usermsg" size="63" placeholder="Your Message"/>
+        <div id="sendButton" onclick="SendMessage()" style="cursor: pointer;" text-align=center>Send</div>
+      <!--<div name="submitmsg" id="submitmsg" value="Send" onClick=></div> -->
+    </form>
+</div>
+
+    <script  src="js/index.js"></script>
+
+</body>
+
+</html>
