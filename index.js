@@ -83,5 +83,4 @@ function refreshChat(){
     //console.log("countid: " +countID);
 }
 
-//setInterval(function)){otherChat()}, 999);
-setInterval(function(){refreshChat()}, 1000);
+window.setInterval(function(){refreshChat();otherChat()}, 1000);
